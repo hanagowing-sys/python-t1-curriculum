@@ -1,7 +1,4 @@
-number = 10
-divisor = 2
+num = int(input("enter a number: "))
 
-if number % divisor == 0:
-    print(f"{number} is divisible by {divisor}!")
-else:
-    print(f"{number} is NOT divisible by {divisor}.")
+if num % 3 == 0:
+    print("number is divisible by 3!")
